@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Решение</title>
+    <link rel="stylesheet" href="./libs/swiper-bundle.min.css">
+    <script src="./libs/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="popup-outer popup-form-outer">
+    <div class="popup-form form-outer popup">
+        <h2>Попробовать бесплатно</h2>
+        <p class="contacts__form-desc">Оставьте Ваши контактные данные, и наш менеджер свяжется с Вами в ближайшее время</p>
+        <form action="">
+            <input type="text" name="" placeholder="Имя">
+            <input type="text" name="" placeholder="Телефон">
+            <input type="text" name="" placeholder="Почта">
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+        <p class="form-privacy">Нажимая на кнопку “Отправить”, Вы принимаете политику конфиденциальности и даете согласие на обработку Ваших персональных данных.</p>
+    </div>
+</div>
+<header class="show-on-scroll">
+    <div class="container">
+        <div class="header__logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div class="header__right">
+            <nav>
+                <ul class="nav__list">
+                    <li><a href="#examples">Видео-примеры</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="#contacts" class="btn" data-record-button>Записаться на демо</a>
+        </div>
+    </div>
+</header>
+<img class="intro__bg show-on-scroll" src="./img/intro-bg.png" alt="">
+<section class="intro">
+    <div class="container">
+        <div class="intro__bitrix-badge show-on-scroll">Золотой партнер <br>Битрикс24</div>
+        <div class="intro__content">
+            <h1 class="show-on-scroll">AI-ассистент  поможет <br>поднять сервис на новый уровень <br>и продавать больше</h1>
+            <div class="intro__buttons show-on-scroll">
+                <button type="button" class="btn popup-form-trigger">Попробовать бесплатно</button>
+                <a href="#contacts" class="btn reverse-btn" data-record-button>Записаться на демо</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="benefits">
+    <div class="container">
+        <h2 class="show-on-scroll">AI-ассистент <br>Преимущества</h2>
+        <div class="benefits__list show-on-scroll">
+            <div class="benefits__item">Снижение затрат на персонал</div>
+            <div class="benefits__item">Автоматизация маркетинга и продаж</div>
+            <div class="benefits__item">Исключение риска ошибок в операциях</div>
+            <div class="benefits__item">Ускорение процессов обработки данных</div>
+            <div class="benefits__item">Повышение конкурентоспособности на рынке</div>
+        </div>
+    </div>
+</section>
+<section class="assistant">
+    <div class="container">
+        <div class="section-head show-on-scroll">
+            <h2>Улучшите ваш бизнес с помощью умного AI-ассистента</h2>
+            <a href="#contacts" class="btn" data-record-button>Записаться на демо</a>
+        </div>
+        <p class="assistant__desc show-on-scroll">Получите мгновенный доступ к аналитике, персонализированным взаимодействиям и эффективной поддержке.</p>
+        <div class="assistant__benefits-outer">
+            <div class="assistant__benefits-top">
+                <div class="assistant__benefit show-on-scroll">Автоматизация задач</div>
+                <div class="assistant__benefit show-on-scroll">Круглосуточная поддержка</div>
+                <div class="assistant__benefit show-on-scroll">Аналитика и прогнозы</div>
+            </div>
+            <div class="assistant__benefits-bottom">
+                <div class="assistant__benefit show-on-scroll">Персонализация</div>
+                <div class="assistant__benefit second show-on-scroll">Внедрение новых технологий</div>
+                <button type="button" class="btn popup-form-trigger show-on-scroll">Попробовать бесплатно</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="examples" id="examples">
+    <div class="container">
+        <div class="section-head show-on-scroll">
+            <div class="empty"></div>
+            <h2>Работа нашего AI-ассистента в реальных сценариях</h2>
+            <div class="examples__head-button">
+                <a href="#contacts" class="btn" data-record-button>Записаться на демо</a>
+            </div>
+        </div>
+        <div class="examples__swiper show-on-scroll">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h3>Название сценария</h3>
+                        <div class="example__video"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <h3>Название сценария</h3>
+                        <div class="example__video"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</section>
+<img class="contacts__bg" src="./img/intro-bg.png" alt="">
+<section class="contacts" id="contacts">
+    <div class="container">
+        <div class="contacts__content">
+            <div class="contacts__form-outer form-outer show-on-scroll">
+                <h2>Записаться на демо</h2>
+                <p class="contacts__form-desc">Оставьте Ваши контактные данные, и наш менеджер свяжется с Вами в ближайшее время</p>
+                <form action="">
+                    <input id="contactsName" type="text" name="name" placeholder="Имя">
+                    <input type="text" name="phone" placeholder="Телефон">
+                    <input type="text" name="email" placeholder="Почта">
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+                <p class="form-privacy">Нажимая на кнопку “Отправить”, Вы принимаете политику конфиденциальности и даете согласие на обработку Ваших персональных данных.</p>
+            </div>
+            <div class="contacts__info">
+                <div class="contacts__item show-on-scroll">
+                    <h3>Телефон</h3>
+                    <a href="tel:+74957778896">+7 (495) 777-88-96 Москва</a>
+                    <a href="tel:+73422338331">+7 (342) 233-83-31 Пермь</a>
+                    <a href="tel:+74752427477">+7 (4752) 42-74-77 Тамбов</a>
+                </div>
+                <div class="contacts__item show-on-scroll">
+                    <h3>Адреса в России</h3>
+                    <a href="mailto:support@ooofix.ru">support@ooofix.ru</a>
+                </div>
+                <div class="contacts__item show-on-scroll">
+                    <h3>Телефон</h3>
+                    <span>г. Москва, Алтуфьевское шоссе, д.48</span>
+                    <span>г. Пермь, Комсомольский проспект, д.27</span>
+                    <span>г. Тамбов, Коммунальная улица, 18/1</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+const examplesSwiperHTML = document.querySelector('.examples__swiper')
+const examplesSwiper = new Swiper(examplesSwiperHTML.querySelector('.swiper'), {
+    spaceBetween: 25,
+    speed: 500,
+    navigation: {
+        nextEl: examplesSwiperHTML.querySelector('.swiper-button-next'),
+        prevEl: examplesSwiperHTML.querySelector('.swiper-button-prev'),
+    },
+});
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting && window.innerWidth <= 600) {
+            examplesSwiper.slideNext();
+            setTimeout(() => {
+                examplesSwiper.slideTo(0);
+            }, 500)
+            observer.unobserve(entry.target);
+        }
+    });
+}, {
+    threshold: 1
+});
+observer.observe(examplesSwiperHTML);
+
+const observer2 = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+    });
+}, {
+    threshold: 0.5
+});
+document.querySelectorAll('.show-on-scroll').forEach(el => observer2.observe(el));
+
+const popupForm = document.querySelector('.popup-form-outer')
+document.addEventListener('click', e => {
+    const target = e.target
+    if (target.classList.contains('popup-form-trigger')) {
+        popupForm.classList.add('show')
+    }
+    if (target.classList.contains('popup-outer')) target.classList.remove('show')
+})
+</script>
+</body>
+</html>
